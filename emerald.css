@@ -1,0 +1,324 @@
+.header{
+  height: 120px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(230, 230, 230);
+  border-bottom-width:3px ;
+  border-bottom-style:solid ;
+  border-bottom-color:rgb(183, 183, 183) ;
+  z-index: 100;
+  align-items: center;
+ justify-content: center;
+
+}
+
+
+.icon{
+  height: 10px;
+}
+
+
+.logo{  
+height: 70px; 
+padding-right: 8px;
+ padding-bottom: 10px;
+}
+
+
+.title{
+ font-size: 40px;
+ font-family:'Trebuchet MS';
+
+}
+
+/*-----------------body------------------*/
+
+body{
+ 
+  background-color:#069674;
+  padding-bottom:100px ;
+}
+
+.container{
+  padding-top: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 200px;
+ row-gap: 50px;
+}
+
+@media(max-width:750px){
+  .container{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width:751px)and(min-width:1002px){
+  .container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+  @media(min-width:1003px){
+    .container{
+      grid-template-columns: 1fr 1fr 1fr;
+    } 
+  }
+
+.cards{
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  transition: 0.5s; 
+  background-color:#59b49d;
+}
+
+.cards:hover{
+  cursor: pointer;
+  border-radius: 1px;
+  transition: 0.5s;
+  zoom: 10px;
+  transform: scale(1.10);
+  background-color: aliceblue;
+}
+
+
+
+.picholder{
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+
+}
+
+.pic{
+  width: 80px;
+  height: 85px;
+  border-radius:5px ;
+ transition: 0.3s;
+ margin-top: 5px;
+
+}
+
+
+
+p{
+  font-weight: 200;
+  font-family: 'Trebuchet MS';
+  }
+
+.buttonholder{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  height: 100px;
+}
+  
+.buttons{
+width: 200px;
+height: 90px;
+border-radius: 10px;
+color: rgb(25, 25, 25);
+font-size: 16px;
+background-color: aliceblue;
+margin-bottom: 10px;
+}
+
+
+
+.buttons:hover{
+  cursor: pointer;
+  background-color:rgb(214, 214, 214);
+}
+.notify{
+  font-size: 10px;
+  color: rgb(156, 4, 4);
+}
+
+/*---------------------------------------------------*/
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+.copyplate{
+  width:1000px ;
+  height: 50px;
+  display: flex;
+  background-color: rgb(230, 230, 230);
+  border-bottom-width:3px ;
+  border-bottom-style:solid ;
+  border-bottom-color:rgb(183, 183, 183) ;
+  z-index: 10;
+  align-items: center;
+ justify-content: center;
+border-radius: 10px;
+
+}
+.title2{
+  font-family: 'Trebuchet MS';
+}
+
+/*---------------------------------------------------*/
+.container3{
+ display: grid;
+ grid-template-columns: 1fr 1fr; 
+ column-gap: 10px;
+ row-gap: 70px;
+ margin-top: 40px;
+ padding-left: 100px;
+ 
+}
+
+@media(max-width:750px){
+  .title2{
+    font-size: 25px;
+  }
+  .container3{
+     grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width:751px)and(min-width:1002px){
+  .title2{
+    font-size: 40px;
+  }
+  .container3{
+    grid-template-columns: 1fr;
+ }
+
+}
+
+  @media(min-width:1003px){
+    .title2{
+      font-size: 30px;
+    } 
+    
+   
+  }
+
+.infos{
+  width:580px;
+  height: 378px;
+  background-color: #59b49d;
+  display: grid;
+  grid-template-columns: 140px 1fr 150px;
+  border-radius: 10px;
+  
+}
+.infos:hover{
+  background-color: #7ac4b1;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  margin-top: 220px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.desc{
+margin-left: 40px;
+margin-top:2.5px ;
+font-size: 20px;
+font-family: 'Trebuchet MS';
+}
+
+.shopk{
+  margin-top: 15.5px;
+}
+
+
+.buttonholder2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 14px;
+  
+}
+
+.cbuttons{
+  height: 25px;
+  width: 120px;
+  border-radius: 5px;
+  background-color:aliceblue;
+  margin-right: 20px;
+}
+
+.cbuttons:hover{
+background-color:rgb(215, 223, 228);
+ width: 135px;
+}
+
+.line{
+height: 5px;
+width: 100%;
+margin-top: 9px;
+margin-bottom: 18px;
+}
+
+.line2{ 
+height: 4px;
+width: 95%;
+margin-top: 13px;
+}
+
+
+.btn{
+  font-size:0px;
+}
+
+
+#desca{
+  margin-top: 135px;
+  margin-left: 70px;
+
+}
+#buttona{
+  margin-top: 135px;
+}
+
+
+
+#namea{
+  margin-top: 155px;
+  margin-left: 50px;
+}
+
+#bcom{
+margin-top: 50px;
+}
+
+#desccom{
+  margin-top: 50px;  
+}
+
+#namecom{
+  margin-top: 160px;
+}
+#namehab{
+  margin-top: 155px;
+}
+#bnatty{
+  margin-top: 100px;
+}
+#descnaty{
+  margin-top: 100px;  
+}
+
+#namenaty{
+  margin-top: 170px;
+}
+
